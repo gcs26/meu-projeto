@@ -1,0 +1,52 @@
+/* Importar uma fonte bonita (Ex: Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&#39;);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Cor de texto principal */
+}
+
+/* --- Seção Hero --- */
+.hero-section {
+    background-color: #343a40; /* Um cinza escuro, ou usar uma imagem de fundo */
+    color: #fff;
+    /* Para usar imagem de fundo:
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('sua-imagem.jpg');
+    background-size: cover;
+    background-position: center;
+    */
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+    border-radius: 50%; /* Foto redonda */
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* --- Seções Padrão --- */
+.section-bg {
+    background-color: #f8f9fa; /* Um fundo cinza bem claro */
+}
+
+/* --- Cards de Projeto --- */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de "levantar" o card */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* --- Rodapé --- */
+footer a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #aaa !important;
+}
