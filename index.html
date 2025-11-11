@@ -1,110 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio - [Nome do Aluno]</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css&quot; rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"&gt;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Gabriel Crisóstomo</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
+  <!-- ======= Cabeçalho ======= -->
+  <header class="container-fluid text-center p-5 hero-section">
+    <img src="../gcs25/421e195d99a80edcb666d2a27120028e.jpg" alt="Foto de Gabriel Crisóstomo" class="foto-perfil mb-3">
+    <h1>Gabriel Crisóstomo</h1>
+    <p class="lead">Desenvolvedor Front-End em Formação</p>
+    <div>
+      <a href="https://linkedin.com/in/seu-link" class="btn btn-outline-light m-1"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/gcs26" class="btn btn-outline-light m-1"><i class="bi bi-github"></i> GitHub</a>
+      <a href="mailto:seuemail@gmail.com" class="btn btn-outline-light m-1"><i class="bi bi-envelope"></i> E-mail</a>
+    </div>
+  </header>
 
-    <header class="container-fluid text-center p-5 hero-section">
-        <img src="url-da-foto.jpg" alt="Foto de [Nome do Aluno]" class="foto-perfil mb-3">
-        <h1>[Nome do Aluno]</h1>
-        <p class="lead">[Seu Título, ex: Desenvolvedor Web em Formação]</p>
-        <div>
-            <a href="#" class="btn btn-outline-light m-1"><i class="bi bi-linkedin"></i> LinkedIn</a>
-            <a href="#" class="btn btn-outline-light m-1"><i class="bi bi-github"></i> GitHub</a>
+  <!-- ======= Menu ======= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Conteúdo principal ======= -->
+  <main class="container mt-5">
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="mb-5 p-4 rounded-3 section-bg">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Sou <strong>Gabriel Crisóstomo</strong>, um entusiasta da tecnologia e apaixonado por desenvolvimento web.
+         Tenho experiência com HTML, CSS, JavaScript e Bootstrap, e estou sempre buscando aprender novas tecnologias.
+         Meu objetivo é me tornar um desenvolvedor completo, criando sites e aplicações que ajudem pessoas e empresas.</p>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia" class="mb-5 p-4 rounded-3 section-bg">
+      <h2>Experiência</h2>
+      <ul>
+        <li><strong>Desenvolvedor Front-End Júnior (projetos pessoais)</strong> — Criação de sites e páginas responsivas usando HTML, CSS e JS.</li>
+        <li><strong>Projetos acadêmicos</strong> — Desenvolvimento de pequenos sistemas e layouts como parte de estudos e cursos.</li>
+      </ul>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="mb-5">
+      <h2>Meus Projetos</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Sistema de Login</h5>
+              <p class="card-text">Página de login e cadastro conectada ao Firebase para autenticação. Desenvolvido com Bootstrap.</p>
+              <div class="mt-auto">
+                <a href="https://github.com/gcs26/app-login" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                </ul>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Meu Site Pessoal</h5>
+              <p class="card-text">Portfólio online feito com HTML, CSS e Bootstrap, hospedado no GitHub Pages.</p>
+              <div class="mt-auto">
+                <a href="https://gcs26.github.io/meu-projeto/" class="btn btn-primary" target="_blank">Ver Site</a>
+              </div>
             </div>
+          </div>
         </div>
-    </nav>
 
-    <main class="container mt-5">
-        <section id="sobre" class="mb-5 p-4 rounded-3 section-bg">
-            <h2 class="text-center mb-4">Sobre Mim</h2>
-            <p>...</p>
-        </section>
+      </div>
+    </section>
 
-        <section id="projetos" class="mb-5">
-            <h2 class="text-center mb-4">Meus Projetos</h2>
-            <div class="row g-4">
-               
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Sistema de Login (Firebase/Supabase)</h5>
-                            <p class="card-text">Página de login e cadastro com Bootstrap, conectada a um BaaS (Firebase/Supabase) para autenticação.</p>
-                            <div class="mt-auto">
-                                <a href="[LINK_DO_REPOSITORIO_APP_LOGIN]" class="btn btn-primary">Ver no GitHub</a>
-                                </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="mb-5 p-4 rounded-3 section-bg">
+      <h2>Habilidades</h2>
+      <div class="row text-center">
+        <div class="col-md-3 col-sm-6 mb-3">
+          <i class="bi bi-filetype-html" style="font-size: 3rem;"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <i class="bi bi-filetype-css" style="font-size: 3rem;"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <i class="bi bi-filetype-js" style="font-size: 3rem;"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <i class="bi bi-bootstrap" style="font-size: 3rem;"></i>
+          <p>Bootstrap</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Projeto Futuro</h5>
-                            <p class="card-text">Descrição do seu próximo projeto incrível.</p>
-                            <div class="mt-auto">
-                                <a href="#" class="btn btn-primary disabled">Em Breve</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- ======= Rodapé ======= -->
+  <footer id="contato" class="text-center text-white bg-dark p-4">
+    <p class="mb-2">Entre em contato:</p>
+    <a href="mailto:seuemail@gmail.com" class="text-white me-2">seuemail@gmail.com</a> |
+    <a href="https://linkedin.com/in/seu-link" class="text-white mx-2"><i class="bi bi-linkedin"></i> LinkedIn</a> |
+    <a href="https://github.com/gcs26" class="text-white ms-2"><i class="bi bi-github"></i> GitHub</a>
+    <p class="mt-3">&copy; 2025 Gabriel Crisóstomo. Todos os direitos reservados.</p>
+  </footer>
 
-            </div>
-        </section>
-
-        <section id="habilidades" class="mb-5 p-4 rounded-3 section-bg">
-            <h2 class="text-center mb-4">Habilidades</h2>
-            <div class="row text-center">
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <i class="bi bi-filetype-html" style="font-size: 3rem;"></i>
-                    <p>HTML5</p>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <i class="bi bi-filetype-css" style="font-size: 3rem;"></i>
-                    <p>CSS3</p>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <i class="bi bi-filetype-js" style="font-size: 3rem;"></i>
-                    <p>JavaScript</p>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <i class="bi bi-bootstrap" style="font-size: 3rem;"></i>
-                    <p>Bootstrap</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer id="contato" class="text-center text-white bg-dark p-4">
-        <p class="mb-2">Entre em contato:</p>
-        <a href="seu-email@dominio.com" class="text-white me-2">seu-email@dominio.com</a> |
-        <a href="[LINK_LINKEDIN]" class="text-white mx-2"><i class="bi bi-linkedin"></i> LinkedIn</a> |
-        <a href="[LINK_GITHUB]" class="text-white ms-2"><i class="bi bi-github"></i> GitHub</a>
-        <p class="mt-3">&copy; 2025 [Nome do Aluno]. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script&gt;
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
